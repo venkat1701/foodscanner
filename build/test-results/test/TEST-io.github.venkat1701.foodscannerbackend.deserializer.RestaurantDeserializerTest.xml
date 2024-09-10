@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.venkat1701.foodscannerbackend.deserializer.RestaurantDeserializerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-08T19:55:35" hostname="REMINGTON" time="0.765">
+  <properties/>
+  <testcase name="givenJson_whenDeserialized_thenCheck_forSwiggy()" classname="io.github.venkat1701.foodscannerbackend.deserializer.RestaurantDeserializerTest" time="0.765"/>
+  <system-out><![CDATA[01:25:32.532 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [io.github.venkat1701.foodscannerbackend.deserializer.RestaurantDeserializerTest]: RestaurantDeserializerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:25:32.655 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration io.github.venkat1701.foodscannerbackend.FoodscannerbackendApplication for test class io.github.venkat1701.foodscannerbackend.deserializer.RestaurantDeserializerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.3)
+
+2024-09-09T01:25:33.070+05:30  INFO 31292 --- [foodscannerbackend] [    Test worker] i.g.v.f.d.RestaurantDeserializerTest     : Starting RestaurantDeserializerTest using Java 17.0.7 with PID 31292 (started by krish in C:\Users\krish\Projects\foodscannerbackend)
+2024-09-09T01:25:33.071+05:30  INFO 31292 --- [foodscannerbackend] [    Test worker] i.g.v.f.d.RestaurantDeserializerTest     : No active profile set, falling back to 1 default profile: "default"
+2024-09-09T01:25:33.775+05:30  INFO 31292 --- [foodscannerbackend] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-09-09T01:25:33.778+05:30  INFO 31292 --- [foodscannerbackend] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-09-09T01:25:33.809+05:30  INFO 31292 --- [foodscannerbackend] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2024-09-09T01:25:35.069+05:30  INFO 31292 --- [foodscannerbackend] [    Test worker] i.g.v.f.d.RestaurantDeserializerTest     : Started RestaurantDeserializerTest in 2.24 seconds (process running for 3.364)
+[Restaurant(restaurantName=Spicy Bites, restaurantID=0, restaurantAddress=12 Pepper Street, Spice City, restaurantRatings=4.6, restaurantContactNumber=919876543210, restaurantTimings=null, restaurantCostForTwo=450, restaurantOffers=[Flat 15% off on all orders above â‚¹500], restaurantUrl=https://www.swiggy.com/spicy-bites), Restaurant(restaurantName=Gourmet Grill, restaurantID=0, restaurantAddress=123 Grilled Street, Food City, restaurantRatings=4.7, restaurantContactNumber=919999999991, restaurantTimings=null, restaurantCostForTwo=800, restaurantOffers=[20% off on orders above â‚¹600], restaurantUrl=https://www.foodpanda.com/gourmet-grill), Restaurant(restaurantName=Bistro Bliss, restaurantID=0, restaurantAddress=123 Main Street, Food Haven, restaurantRatings=4.6, restaurantContactNumber=919999999901, restaurantTimings=null, restaurantCostForTwo=850, restaurantOffers=[20% off on orders above â‚¹700], restaurantUrl=https://www.zomato.com/bistro-bliss)]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
