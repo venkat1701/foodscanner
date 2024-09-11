@@ -6,10 +6,11 @@ import io.github.venkat1701.foodscannerbackend.model.Restaurant;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;
+import java.util.Map;
 
 public interface RestaurantService {
 
-    List<RestaurantDTO> getRestaurantsAvailable();
+    Map<String, List<RestaurantDTO>> getRestaurantsAvailable();
 
     List<RestaurantDTO> getRestaurantsWithName(String name);
 

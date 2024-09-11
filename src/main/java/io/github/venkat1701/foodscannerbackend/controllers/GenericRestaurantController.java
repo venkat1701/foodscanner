@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class GenericRestaurantController {
@@ -26,7 +27,7 @@ public class GenericRestaurantController {
      * @return a list of Zomato restaurants
      */
     @GetMapping("/")
-    public List<RestaurantDTO> getRestaurants() {
+    public Map<String, List<RestaurantDTO>> getRestaurants() {
         return restaurantServiceImpl.getRestaurantsAvailable();
     }
 
@@ -41,4 +42,6 @@ public class GenericRestaurantController {
     public List<RestaurantDTO> getRestaurantsByPlatform(@PathVariable String plafName) {
         return restaurantServiceImpl.getRestaurantsWithName(plafName);
     }
+
+    
 }
