@@ -5,12 +5,13 @@ import io.github.venkat1701.foodscannerbackend.model.Locality;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 public interface RestaurantComparator {
 
-    ResponseEntity<List<RestaurantDTO>> compareRestaurantsByPrice(String platformName);
+    ResponseEntity<List<RestaurantDTO>> compareRestaurantsByPrice(String platformName) throws ExecutionException, InterruptedException;
 
-    ResponseEntity<List<RestaurantDTO>> compareRestaurantsByRating(String platformName);
+    ResponseEntity<List<RestaurantDTO>> compareRestaurantsByRating(String platformName) throws ExecutionException, InterruptedException;
 
     ResponseEntity<List<RestaurantDTO>> compareRestaurantByLocality(Locality locality);
 
